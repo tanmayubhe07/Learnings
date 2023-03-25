@@ -1,4 +1,4 @@
-package Selenium;
+package selenium;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -20,6 +20,7 @@ public class Handling_DynamicDropDown {
 		Thread.sleep(2000);
 		//select Arrival city
 		driver.findElement(By.xpath("(//a[@value='BOM'])[2]")).click();
+
 
 	}
 

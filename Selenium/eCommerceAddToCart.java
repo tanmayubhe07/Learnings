@@ -25,6 +25,7 @@ public class eCommerceAddToCart {
 		
 		String[] requiredProducts = {"Brocolli", "Beetroot", "Tomato", "Potato"};
 		
+		@SuppressWarnings("rawtypes")
 		List Products = Arrays.asList(requiredProducts);
 		
 		List<WebElement> productList = driver.findElements(By.cssSelector("h4[class='product-name']"));

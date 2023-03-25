@@ -1,4 +1,4 @@
-package Selenium;
+package selenium;
 
 import java.time.Duration;
 
@@ -38,7 +38,6 @@ public class StringParsing {
 		driver.findElement(By.xpath("//form/div/button[1]")).click();
 		Thread.sleep(1000);
 		return password;
-		
 	}
 
 }

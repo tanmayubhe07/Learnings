@@ -1,4 +1,4 @@
-package Selenium;
+package selenium;
 
 import java.time.Duration;
 
@@ -10,7 +10,6 @@ public class Locators {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-		
 		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.get("https://rahulshettyacademy.com/locatorspractice/");
@@ -44,4 +43,5 @@ public class Locators {
 		driver.quit();
 		
 	}
+
 }

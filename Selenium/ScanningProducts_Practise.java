@@ -17,9 +17,7 @@ public class ScanningProducts_Practise {
 
 		List newL = Arrays.asList(UserInput);  		// converting above array to arrayList so as to parse it
 
-		System.setProperty("webdriver.chrome.driver",
-				"C:\\\\Users\\\\Tanmay Ubhe\\\\eclipse-workspace\\\\Training\\\\Drivers\\\\chromedriver.exe");
-
+	
 		WebDriver driver = new ChromeDriver();
 
 		driver.manage().window().maximize();

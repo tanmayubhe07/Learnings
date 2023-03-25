@@ -37,8 +37,8 @@ public class SoftAssertions {
 			int statusCode = conn.getResponseCode();
 			System.out.println(statusCode);
 			sa.assertTrue(statusCode<400, "The link with Text "+link.getText()+" is Broken with code "+statusCode);
-
 		}
+		
 		sa.assertAll();
 		
 
