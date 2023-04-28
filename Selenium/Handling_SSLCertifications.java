@@ -11,7 +11,7 @@ public class Handling_SSLCertifications {
 
 		ChromeOptions options = new ChromeOptions();
 
-		options.setAcceptInsecureCerts(true);
+		options.setAcceptInsecureCerts(true); // This should always be written before declaring driver object
 
 		WebDriver driver = new ChromeDriver(options);
 
