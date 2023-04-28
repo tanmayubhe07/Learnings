@@ -1,5 +1,6 @@
 package TestNG;
 
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class Test2 {
@@ -8,10 +9,11 @@ public class Test2 {
 	public void test3() {
 		System.out.println("This is test 3");
 	}
-	
-	@Test(groups= {"Sanity"})
-	public void test4() {
+	@Parameters("URL")
+	@Test()
+	public void test4(String name) {
 		System.out.println("This is test 4");
+		System.out.println(name);
 	}
 	
 	@Test

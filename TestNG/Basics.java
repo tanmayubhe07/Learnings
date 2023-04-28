@@ -1,12 +1,15 @@
 package TestNG;
 
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class Basics {
 	
-	@Test(groups= {"Sanity"})
-	public void test1() {
+	@Parameters("URL")
+	@Test
+	public void test1(String url) {
 		System.out.println("This is test 1");
+		System.out.println(url);
 	}
 	
 	@Test

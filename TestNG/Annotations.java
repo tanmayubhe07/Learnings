@@ -8,9 +8,7 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class Annotations {
-	
-	
+public class Annotations {	
 	
 //@Test >> It represents the test case in the class/module
 //@BeforeTest >> The code under it executes before executing all tests in the class. The scope of Before test depends upon the test folder mentioned in the XML
